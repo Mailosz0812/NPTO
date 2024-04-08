@@ -2,7 +2,13 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        int i = 0;
+        while(i < 6)
+        {
+            System.out.println("Hello World");
+            i++;
+        }
+
 
     }
 }

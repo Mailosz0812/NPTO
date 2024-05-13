@@ -12,7 +12,7 @@ public class uczen {
         this.oceny.add(ocena);
     }
     public String getNazwisko() {
-        return nazwisko;
+        return "Kowalski";
     }
     public Stack getOceny(){
         return oceny;

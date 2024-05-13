@@ -2,9 +2,9 @@ import java.util.Stack;
 
 public class uczen {
     private String nazwisko;
-    private Stack<Float> oceny = new Stack<>();
+    private Stack<Double> oceny = new Stack<>();
 
-    uczen (String nazwisko) {
+    public uczen (String nazwisko) {
         this.nazwisko = nazwisko;
     }
 
